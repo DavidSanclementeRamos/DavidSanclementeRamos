@@ -51,10 +51,10 @@ Busco mi primera oportunidad profesional en equipos que trabajen con sistemas co
 
 ### Documentación destacada
 
-- [Índice de ADRs](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/architecture/decisions/README.md) — catálogo de decisiones arquitectónicas activas, organizadas por categoría.
-- [Visión general de la arquitectura](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/architecture/overview.md) — bounded contexts, capas y principios.
-- [Lecciones aprendidas](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/tree/master/docs/evolution/lessons-learned) — errores cometidos, refactorizaciones y por qué se tomaron.
-- [Guía de autorización](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/guides/authorization/guia-estrategia-autorizacion-security-context.md) — cómo funciona el sistema RBAC/ABAC en el proyecto.
+- [Índice de ADRs](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/src/docs/architecture/decisions/README.md) — catálogo de decisiones arquitectónicas activas, organizadas por categoría.
+- [Visión general de la arquitectura](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/src/docs/architecture/overview.md) — bounded contexts, capas y principios.
+- [Lecciones aprendidas](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/tree/master/src/docs/evolution/lessons-learned) — errores cometidos, refactorizaciones y por qué se tomaron.
+- [Guía de autorización](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/src/docs/guides/authorization/guia-estrategia-autorizacion-security-context.md) — cómo funciona el sistema RBAC/ABAC en el proyecto.
 
 > El proyecto es open source. Si te interesa contribuir, revisa [`CONTRIBUTING.md`](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/CONTRIBUTING.md) — hay tareas en todos los niveles de dificultad.
 
