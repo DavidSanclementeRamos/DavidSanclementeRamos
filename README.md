@@ -1,68 +1,71 @@
-# 👋 Hola, soy David  
-**Arquitecto de software | Java & Spring | DDD & ADRs**
+# 👋 Hola, soy David Stiven Sanclemente
 
-Diseño sistemas clínico-administrativos con enfoque en arquitectura modular, separación hexagonal y documentación estratégica.  
-Este repositorio funciona como mi portafolio público para reclutadores y colegas.
+Desarrollador Java backend enfocado en arquitectura hexagonal y DDD.  
+Construí un sistema de gestión clínica como proyecto de portafolio — de cero, con errores documentados, dos refactorizaciones y más de 90 decisiones arquitectónicas registradas.  
+Busco mi primera oportunidad profesional en equipos que trabajen con sistemas complejos.
+
+📍 Colombia · 📫 [davidrsmos434@gmail.com](mailto:davidrsmos434@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/David Rsmos) · 🐙 [GitHub](https://github.com/DavidSanclementeRamos)
 
 ---
 
-## 🚀 Stack y herramientas
+## Stack
 
-### Lenguajes y frameworks
-![Java](https://img.shields.io/badge/Java-17-orange?logo=java)
-![Spring Boot](https://img.shields.io/badge/Spring-Boot-green?logo=spring)
-![Spring Security](https://img.shields.io/badge/Spring-Security-darkgreen?logo=springsecurity)
-![Hibernate](https://img.shields.io/badge/Hibernate-JPA-blue?logo=hibernate)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
-### Bases de datos
+![Java](https://img.shields.io/badge/Java-17-orange?logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?logo=spring&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
+![Hibernate](https://img.shields.io/badge/Hibernate_JPA-59666C?logo=hibernate&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
-
-### Herramientas de desarrollo
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker_(Testcontainers)-2496ED?logo=docker&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=white)
 
-### Seguridad y sistemas
-![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?logo=kalilinux&logoColor=white)
+---
+
+## 🏥 Proyecto principal: ClinicaDefinitiva2
+
+> Sistema de gestión clínica odontológica construido con arquitectura hexagonal y DDD.  
+> Un año de desarrollo, dos refactorizaciones completas, y cada decisión importante documentada.
+
+🔗 **[Ver repositorio](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2)** · 📖 **[Historia del proyecto](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/STORY.md)**
+
+### Lo que lo diferencia de un CRUD con Spring Boot
+
+- **Arquitectura hexagonal real** — dominio puro sin importaciones de Spring, puertos y adaptadores, capas claras.
+- **Dominio rico** — agregados con invariantes, Value Objects con validaciones propias, servicios de dominio para lógica cross-aggregate.
+- **Autorización RBAC + ABAC** — no solo roles: también ownership, sector y especialidad determinan el acceso.
+- **Manejo híbrido de errores** — `Outcome` para flujos técnicos (autenticación), excepciones para reglas de negocio (ADR-40).
+- **Más de 90 ADRs** — cada decisión importante tiene contexto, alternativas evaluadas y consecuencias documentadas.
+- **Evolución transparente** — incluye ADRs superados, lecciones aprendidas y material histórico como evidencia del proceso.
+
+### Módulos
+
+| Módulo | Descripción | Estado |
+|--------|-------------|--------|
+| **Actores** | Pacientes, odontólogos, guardianes, recepcionistas | ✅ Probado |
+| **Agenda (Schedule)** | Turnos (Shift), disponibilidad, citas | ✅ Probado |
+| **Autorización** | RBAC/ABAC híbrido, roles múltiples, permisos contextuales | ✅ Probado |
+| **Autenticación** | JWT stateless, bloqueo por intentos | ⚠️ Parcial |
+| **Servicios odontológicos** | Catálogo con variantes por especialidad | ⚠️ Sin pruebas de integración |
+| **Facturación** | Tarifas vigentes, snapshot inmutable, DIAN simulado | ⚠️ Sin pruebas de integración |
+| **Contabilidad** | Plan de cuentas (PUC), asientos, saldos iniciales | ⚠️ Sin pruebas de integración |
+
+### Documentación destacada
+
+- [Índice de ADRs](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/architecture/decisions/README.md) — catálogo de decisiones arquitectónicas activas, organizadas por categoría.
+- [Visión general de la arquitectura](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/architecture/overview.md) — bounded contexts, capas y principios.
+- [Lecciones aprendidas](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/tree/master/docs/evolution/lessons-learned) — errores cometidos, refactorizaciones y por qué se tomaron.
+- [Guía de autorización](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/docs/guides/authorization/guia-estrategia-autorizacion-security-context.md) — cómo funciona el sistema RBAC/ABAC en el proyecto.
+
+> El proyecto es open source. Si te interesa contribuir, revisa [`CONTRIBUTING.md`](https://github.com/DavidSanclementeRamos/ClinicaDefinitiva2/blob/master/CONTRIBUTING.md) — hay tareas en todos los niveles de dificultad.
 
 ---
 
-## 🏥 Proyecto destacado: Clínica Odontológica Modular
+## ¿Qué tipo de trabajo busco?
 
-Este proyecto experimental está orientado al **sector salud odontológico** y actualmente se encuentra en construcción.  
-Su objetivo es servir como referencia de **arquitectura hexagonal** y **Domain-Driven Design (DDD)** aplicado a un sistema clínico-administrativo.
-
-### 🎯 Características principales
-- **Arquitectura hexagonal**: separación clara entre dominio, aplicación e infraestructura.  
-- **DDD**: modelado de agregados y entidades para reflejar reglas de negocio reales.  
-- **Documentación estratégica**: ADRs narrativos que justifican decisiones arquitectónicas y su evolución.
-
-### 🧩 Módulos implementados
-- **Actores**: gestión de pacientes, odontólogos y personal administrativo.  
-- **Citas**: programación, cancelación y control de agendas.  
-- **Servicios odontológicos**: catálogo de procedimientos y tratamientos.  
-- **Pagos y facturación**: registro de pagos, emisión de facturas y control financiero.  
-- **Autenticación**: acceso seguro con credenciales y tokens.  
-- **Administrativo**: gestión de permisos, roles y accesos.  
-- **Contabilidad**: proyecciones, balances y plan de cuentas.  
-
-### 🚀 Objetivo
-Convertirse en un **laboratorio de buenas prácticas** para mostrar cómo un sistema clínico puede construirse con modularidad, trazabilidad y documentación clara, sirviendo como pieza de exhibición para reclutadores y colegas.
-
-
-
-## 📑 ADRs y documentación
-- [Índice de ADRs](https://github.com/tu-usuario/tu-repo/blob/main/docs/ADRs.md)  
-- [Rule Discovery](https://github.com/tu-usuario/tu-repo/tree/main/docs/rules)  
-- [README narrativo para reclutadores](https://github.com/tu-usuario/tu-repo)
+Rol de desarrollador Java backend en un equipo donde la arquitectura sea una conversación real, no un checklist.  
+Me interesa especialmente el sector salud o fintech — contextos con reglas de negocio complejas donde el modelado del dominio importa.  
+Estoy en etapa de primer empleo y busco un equipo donde pueda aportar desde el primer día y seguir creciendo.
 
 ---
 
-## 📬 Contacto
-- ✉️ [Email](mailto:tu-email@dominio.com)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/tu-perfil)  
-- 🐙 [GitHub](https://github.com/tu-usuario)
-- 
+⭐ Si el proyecto o el enfoque te resulta útil, una estrella ayuda a que otros lo encuentren.
